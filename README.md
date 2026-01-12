@@ -1,1 +1,14 @@
 # Flow-FavManager
+- Sistema de Perfiles (guardar/cargar múltiples listas)
+- Multiselección masiva
+- Sistema de Seguridad con PIN
+- Editor de Plantillas
+- Explorador navegable de perfiles
+- Búsqueda en perfiles
+- Separadores personalizados
+- Auto-agrupación por addon
+- Backup/Restore XML avanzado
+- Enriquecimiento automático de iconos
+- Colores y temas personalizables
+- Modo daltónicos
+- Múltiples vistas (Lista, Cuadrícula, etc.)
