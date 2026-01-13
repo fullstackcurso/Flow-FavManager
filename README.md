@@ -1,6 +1,6 @@
 # Flow FavManager ⭐ - Addon para Kodi
 
-![Kodi](https://img.shields.io/badge/Kodi-19%2B-blue?logo=kodi) ![Status](https://img.shields.io/badge/Estado-Activo-brightgreen)
+![Kodi](https://img.shields.io/badge/Kodi--blue?logo=kodi) ![Status](https://img.shields.io/badge/Estado-Activo-brightgreen)
 
 ## Descripción
 
@@ -78,7 +78,7 @@ Este es el método más sencillo ya que no requiere descargar archivos externos 
 
 ## 📋 Requisitos
 
-- Kodi 19 (Matrix) o superior (Compatible con Omega).
+- Compatible con Kodi.
 - No requiere dependencias complejas.
 
 ---
@@ -104,3 +104,7 @@ Si encuentras un fallo o tienes una sugerencia:
 ---
 
 *Addon desarrollado originalmente por RubénSDFA1labernt* - [GitHub](https://github.com/fullstackcurso/Flow-FavManager)
+
+---
+*Puedes consultar los créditos y colaboradores detallados en la rama de desarrollo (source) de este repositorio.*
+
