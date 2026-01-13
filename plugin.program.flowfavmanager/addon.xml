@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.flowfavmanager" name="Flow FavManager" version="1.0.1" provider-name="RubénSDFA1labernt">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <!-- Menú Contextual Global: Añadir a Flow FavManager -->
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="context_add.py">
+        <label>Añadir a Flow FavManager</label>
+        <visible>true</visible>
+      </item>
+    </menu>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <news>
+      [COLOR lavender][B]Flow FavManager 1.0.1[/B][/COLOR]
+      - Nuevo: Widget Dinámico para integración con Skins.
+      - Nuevo: Menú Contextual Global "Añadir a Flow FavManager".
+      - Nuevo: Log de Auditoría.
+      - Mejora: Corrección automática de URLs (script:// y RunAddon).
+    </news>
+    <summary>Gestor avanzado de favoritos con perfiles y editor visual.</summary>
+    <description lang="es">
+Flow FavManager mejora la experiencia de gestión de favoritos en Kodi.
+Permite crear múltiples perfiles de favoritos independientes, organizarlos visualmente y personalizar su apariencia. Incluye herramientas de copia de seguridad y un editor intuitivo para mantener tu colección siempre ordenada.
+    </description>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
