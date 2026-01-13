@@ -1,4 +1,4 @@
-# Flow FavManager 🌟 - Addon para Kodi
+# Flow FavManager ⭐ - Addon para Kodi
 
 ![Kodi](https://img.shields.io/badge/Kodi-19%2B-blue?logo=kodi) ![Status](https://img.shields.io/badge/Estado-Activo-brightgreen)
 
@@ -11,7 +11,7 @@
 
 
 
-## �📥 Instalación
+## 📥 Instalación
 
 ### Opción 1: Desde el Administrador de Archivos de Kodi (Recomendado)
 Este es el método más sencillo ya que no requiere descargar archivos externos manualmente y permite actualizaciones automáticas:
@@ -98,6 +98,7 @@ Este es el método más sencillo ya que no requiere descargar archivos externos 
 Si encuentras un fallo o tienes una sugerencia:
 
 👉 **[Abrir una Issue en GitHub](https://github.com/fullstackcurso/Flow-FavManager/issues)**
+
 👉 **Formulario de Contacto**: Disponible a través del enlace web en la [página principal del perfil de GitHub](https://github.com/fullstackcurso).
 
 ---
