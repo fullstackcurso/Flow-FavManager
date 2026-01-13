@@ -1,110 +1,107 @@
-# Flow FavManager ⭐ - Addon para Kodi
-
-![Kodi](https://img.shields.io/badge/Kodi--blue?logo=kodi) ![Status](https://img.shields.io/badge/Estado-Activo-brightgreen)
-
-## Descripción
-
-**Flow FavManager** es un gestor avanzado de favoritos para Kodi. Además de facilitar su organización, permite personalizar colores, iconos, formatos, las acciones que ejecutan y crear secciones; también incluye un sistema de copias de seguridad y un sistema de perfiles independientes, entre otras funciones que se detallan más adelante.
+# Flow FavManager ⭐ - Addon for Kodi
 
 
+![Kodi](https://img.shields.io/badge/Kodi--blue?logo=kodi) ![Status](https://img.shields.io/badge/Status-Active-brightgreen) [![Roadmap](https://img.shields.io/badge/Roadmap-View_Goals-orange?logo=github)](./ROADMAP.md) [![Leer en Español](https://img.shields.io/badge/Leer_en_Español-🇪🇸-yellow)](./README_ES.md)
 
+## Description
 
+**Flow FavManager** is an advanced favorites manager for Kodi. In addition to simplifying organization, it allows you to customize colors, icons, formatting, executable actions, and create sections. It also features a backup system and an independent profile system, among other functions detailed below.
 
+## 📥 Installation
 
-## 📥 Instalación
+> **Language Support:**
+> If the addon is not in your preferred language after installation, check the [Releases](https://github.com/fullstackcurso/Flow-FavManager/releases) section for more language options.
 
-### Opción 1: Desde el Administrador de Archivos de Kodi (Recomendado)
-Este es el método más sencillo ya que no requiere descargar archivos externos manualmente y permite actualizaciones automáticas:
+### Option 1: From Kodi File Manager (Recommended)
+This is the simplest method as it does not require manually downloading external files and enables automatic updates:
 
-1. Abre Kodi y ve a **Ajustes** (icono del engranaje).
-2. Entra en **Explorador de archivos** y selecciona **Añadir fuente**.
-3. Haz clic en `<Ninguno>` y escribe la siguiente dirección: `https://fullstackcurso.github.io/Flow-FavManager/`
+1. Open Kodi and go to **Settings** (gear icon).
+2. Enter **File manager** and select **Add source**.
+3. Click on `<None>` and type the following address: `https://fullstackcurso.github.io/Flow-FavManager/`
 
-   > ⚠️ **MUY IMPORTANTE:** Debes escribir **EXACTAMENTE** esta dirección. **NO** copies la dirección que ves en la barra de tu navegador (`github.com...`), ya que esa no funciona en Kodi y te saldrá la carpeta vacía.
+   > ⚠️ **VERY IMPORTANT:** You must type this address **EXACTLY**. **DO NOT** copy the address URL from your browser bar (github.com...), as that will not work in Kodi and will result in an empty folder.
 
-4. Dale un nombre a la fuente (por ejemplo: `flowfav`) y pulsa **OK**.
-5. Vuelve al menú principal, entra en **Add-ons** y haz clic en el icono de la **cajita abierta** (arriba a la izquierda).
-6. Selecciona **Instalar desde archivo zip**.
-   - *Nota: Si te sale un aviso de seguridad, ve a Ajustes y activa la opción "Orígenes desconocidos".*
-7. Selecciona la fuente `flowfav` y elige el archivo `repository.flowfavmanager-1.0.0.zip`.
-8. Espera a que aparezca la notificación de "**Add-on instalado**" (esto instala el repositorio).
-9. Ahora, en el mismo menú, selecciona **Instalar desde repositorio**.
-10. Entra en **Flow FavManager Repository** > **Program add-ons** > **Flow FavManager** y pulsa **Instalar**.
+4. Give the source a name (e.g., `flowfav`) and click **OK**.
+5. Return to the main menu, enter **Add-ons**, and click the **open box icon** (top left).
+6. Select **Install from zip file**.
+   - *Note: If a security warning appears, go to Settings and enable "Unknown sources".*
+7. Select the `flowfav` source and choose the file `repository.flowfavmanager-1.0.0.zip`.
+8. Wait for the "**Add-on installed**" notification (this installs the repository).
+9. Now, in the same menu, select **Install from repository**.
+10. Go to **Flow FavManager Repository** > **Program add-ons** > **Flow FavManager** and click **Install**.
 
-### Opción 2: Instalación manual mediante archivo ZIP
-1. Descarga el archivo `repository.flowfavmanager-1.0.0.zip` de la última versión desde la sección de [Releases](https://github.com/fullstackcurso/Flow-FavManager/releases).
-2. En Kodi, ve a **Add-ons** > **Icono de la cajita** > **Instalar desde archivo zip**.
-3. Busca en tu dispositivo el archivo descargado y selecciónalo para completar la instalación.
-
----
-
-## 🧩 Características
-
-### 1. Gestión Avanzada de Listas y Perfiles
-- **Sistema de Multi-Perfiles:** Crea y gestiona perfiles ilimitados (archivos JSON independientes) para separar entornos (ej: "Niños", "Deportes", "Cine").
-- **Importación y Exportación:** Comparte perfiles o muévelos entre dispositivos fácilmente mediante archivos XML.
-- **Plantillas de Sistema:** Incluye listas predefinidas y editables con accesos directos a secciones y comandos útiles de Kodi.
-- **Widget Dinámico:** Ruta especializada (`/widget`) para integrar tus favoritos como carpetas limpias en los widgets de skins avanzados (Aura, Arctic, Titan, etc).
-
-
-### 2. Edición y Personalización Visual
-- **Editor en Ventana Emergente:** Interfaz cómoda y rápida para editar las propiedades de tus favoritos.
-- **Personalización Total:** Cambia el color del texto, aplica formatos (negrita/cursiva) y ajusta el tamaño de fuentes e iconos.
-- **Gestión de Iconos:** Asignación automática de iconos o selección manual de imágenes personalizadas.
-- **Barras Separadoras:** Inserta líneas o textos divisorios para organizar visualmente tus listas.
-- **Accesibilidad:** Permite ampliar la interfaz e incluye modos de alto contraste y paletas adaptadas.
-
-### 3. Organización y Automatización
-- **Ordenación:** Permite ordenar los favoritos de forma rápida y sencilla.
-- **Operaciones Masivas:** Selecciona múltiples ítems (Multiselección) para mover, borrar o colorear en grupo.
-- **Agrupación Automática:** Algoritmo inteligente que agrupa favoritos por su Addon de origen con un solo clic.
-- **Ordenación y Búsqueda:** Herramientas de ordenación (A-Z, Z-A, Invertir) y filtrado de texto en tiempo real para localizar contenidos rápidamente.
-
-### 4. Creación y Manipulación
-- **Creación y Edición Manual:** Crea favoritos desde cero escribiendo la ruta, edita comandos existentes o duplica entradas.
-- **Selector de Addons:** Buscador integrado para añadir favoritos desde cualquier addon instalado sin salir del editor.
-- **Menú Contextual Global:** Añade contenido a Flow FavManager desde cualquier lugar de Kodi usando el menú contextual (clic derecho).
-- **Maximizador de Compatibilidad:** Corrige automáticamente URLs problemáticas para asegurar la ejecución de todos los favoritos.
-
-### 5. Seguridad y Mantenimiento
-- **Protección con PIN:** Bloquea el acceso al editor o perfiles con código numérico y bloqueo de sesión inteligente.
-- **Sistema de Rescate:** Si olvidas tu clave, puedes recuperarla mediante tu pregunta de seguridad. Como última opción, el sistema detectará si creas un archivo llamado `reset_pass.txt` en la carpeta de datos del addon, eliminando la protección automáticamente sin borrar tus perfiles.
-- **Log de Auditoría:** Registro interno de acciones críticas para un control total.
-- **Sistema de Backup:** Herramientas integrales para crear copias de seguridad y restaurar tu archivo `favourites.xml`.
-
-> **Y mucho más...** Flow FavManager está en constante desarrollo, añadiendo nuevas funciones y mejoras regularmente. ¡Descúbrelo tú mismo!
+### Option 2: Manual Installation via ZIP File
+1. Download the latest `repository.flowfavmanager-1.0.0.zip` file from the [Releases](https://github.com/fullstackcurso/Flow-FavManager/releases) section.
+2. In Kodi, go to **Add-ons** > **Package icon** > **Install from zip file**.
+3. Locate the downloaded file on your device and select it to complete the installation.
 
 ---
 
-## 📋 Requisitos
+## 🧩 Features
 
-- Compatible con Kodi.
-- No requiere dependencias complejas.
+### 1. Advanced List and Profile Management
+- **Multi-Profile System:** Create and manage unlimited profiles (independent JSON files) to separate environments (e.g., "Kids", "Sports", "Movies").
+- **Import and Export:** Easily share profiles or move them between devices using XML files.
+- **System Templates:** Includes predefined and editable lists with shortcuts to sections and useful Kodi commands.
+- **Dynamic Widget:** Specialized path (`/widget`) to integrate your favorites as clean folders into widgets of advanced skins (Aura, Arctic, Titan, etc.).
+
+### 2. Visual Editing and Customization
+- **Pop-up Editor:** User-friendly and fast interface to edit your favorites' properties.
+- **Total Customization:** Change text color, apply formatting (bold/italics), and adjust font and icon sizes.
+- **Icon Management:** Automatic icon assignment or manual selection of custom images.
+- **Separator Bars:** Insert divider lines or texts to visually organize your lists.
+- **Accessibility:** Allows interface scaling and includes high-contrast modes and adapted palettes.
+
+### 3. Organization and Automation
+- **Sorting:** Allows for quick and simple sorting of favorites.
+- **Bulk Operations:** Select multiple items (Multi-selection) to move, delete, or color in groups.
+- **Automatic Grouping:** Intelligent algorithm that groups favorites by their source Addon with a single click.
+- **Sorting and Search:** Sorting tools (A-Z, Z-A, Reverse) and real-time text filtering to quickly locate content.
+
+### 4. Creation and Manipulation
+- **Manual Creation and Editing:** Create favorites from scratch by typing the path, edit existing commands, or duplicate entries.
+- **Addon Selector:** Integrated search to add favorites from any installed addon without leaving the editor.
+- **Global Context Menu:** Add content to Flow FavManager from anywhere in Kodi using the context menu (right-click).
+- **Compatibility Maximizer:** Automatically corrects problematic URLs to ensure all favorites execute correctly.
+
+### 5. Security and Maintenance
+- **PIN Protection:** Blocks access to the editor or profiles with a numeric code and intelligent session locking.
+- **Rescue System:** If you forget your password, you can recover it via your security question. As a last resort, the system will detect if you create a file named `reset_pass.txt` in the addon's data folder, automatically removing protection without deleting your profiles.
+- **Audit Log:** Internal log of critical actions for total control.
+- **Backup System:** Comprehensive tools to create backups and restore your `favourites.xml` file.
+
+> **And much more...** Flow FavManager is in constant development, regularly adding new features and improvements. Discover it for yourself!
 
 ---
 
-## ⚖️ Aviso Legal
+## 📋 Requirements
 
-**Flow FavManager** es una herramienta de organización.
-
-1.  **Exención de Responsabilidad**: Este software se proporciona "tal cual", sin garantía de ningún tipo. El autor no se hace responsable de posibles pérdidas de datos o mal funcionamiento derivado de su uso. Se recomienda realizar copias de seguridad regularmente.
-2.  **Privacidad**: Este addon no recopila, almacena ni envía datos personales. Todo el procesamiento se realiza de forma local en tu dispositivo.
-
+- Compatible with Kodi.
+- No complex dependencies required.
 
 ---
 
-## 💬 Soporte
+## ⚖️ Legal Disclaimer
 
-Si encuentras un fallo o tienes una sugerencia:
+**Flow FavManager** is an organization tool.
 
-👉 **[Abrir una Issue en GitHub](https://github.com/fullstackcurso/Flow-FavManager/issues)**
+1.  **Disclaimer of Liability**: This software is provided "as is", without warranty of any kind. The author is not responsible for possible data loss or malfunction resulting from its use. Regular backups are recommended.
+2.  **Privacy**: This addon does not collect, store, or send personal data. All processing is performed locally on your device.
 
-👉 **Formulario de Contacto**: Disponible a través del enlace web en la [página principal del perfil de GitHub](https://github.com/fullstackcurso).
+---
+
+## 💬 Support
+
+If you find a bug or have a suggestion:
+
+👉 **[Open an Issue on GitHub](https://github.com/fullstackcurso/Flow-FavManager/issues)**
+
+👉 **Contact Form**: Available via the web link on the [main GitHub profile page](https://github.com/fullstackcurso).
 
 ---
 
-*Addon desarrollado originalmente por RubénSDFA1labernt* - [GitHub](https://github.com/fullstackcurso/Flow-FavManager)
+*If you are looking for the source code, switch to the source branch of this repository.*
 
 ---
-*Puedes consultar los créditos y colaboradores detallados en la rama de desarrollo (source) de este repositorio.*
 
+*Founded by RubénSDFA1labernt* - [GitHub](https://github.com/fullstackcurso/Flow-FavManager)
