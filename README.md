@@ -113,3 +113,13 @@ If you find a bug or have a suggestion:
 ---
 
 *Founded by RubénSDFA1labernt* - [GitHub](https://github.com/fullstackcurso/Flow-FavManager)
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/github/downloads/fullstackcurso/Flow-FavManager/total?color=blue&label=Downloads" alt="Downloads">
+  <img src="https://img.shields.io/github/stars/fullstackcurso/Flow-FavManager?style=flat&color=yellow&label=Stars" alt="Stars">
+  <img src="https://api.visitorbadge.io/api/visitors?path=fullstackcurso/Flow-FavManager&label=Visitors&countColor=%23263238&style=flat" alt="Visitors">
+  <br>
+  <small><em>*Metrics are estimates. Download count reflects GitHub Releases only, not direct installations via Kodi.</em></small>
+</p>
