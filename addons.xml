@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addons>
+<addon id="plugin.program.flowfavmanager" name="Flow FavManager" version="1.0.1" provider-name="RubenSDFA1labernt">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="context_add.py">
+        <label>Añadir a Flow FavManager</label>
+        <visible>true</visible>
+      </item>
+    </menu>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <news></news>
+    <summary lang="es">Organización y personalización avanzada de favoritos</summary>
+    <summary lang="en">Advanced organization and customization of favorites</summary>
+    <description lang="es">Flow FavManager mejora la experiencia de gestión de favoritos en Kodi.
+Permite organizarlos, personalizar su apariencia y las acciones que realizan. Incluye herramientas de copia de seguridad, un editor intuitivo, perfiles y ordenación por secciones, entre otras funciones.</description>
+    <description lang="en">Flow FavManager improves the favorites management experience in Kodi.
+It allows you to organize them, customize their appearance and the actions they perform. Includes backup tools, an intuitive editor, profiles and sorting by sections, among other functions.</description>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="repository.flowfavmanager" name="Flow FavManager Repository" version="1.0.0" provider-name="RubenSDFA1labernt">
+    <extension point="xbmc.addon.repository" name="Flow FavManager Repository">
+        <dir>
+            <info compressed="false">https://fullstackcurso.github.io/Flow-FavManager/addons.xml</info>
+            <checksum>https://fullstackcurso.github.io/Flow-FavManager/addons.xml.md5</checksum>
+            <datadir zip="true">https://fullstackcurso.github.io/Flow-FavManager/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Repositorio de Flow FavManager</summary>
+        <summary lang="en">Flow FavManager Repository</summary>
+        <description lang="es">Repositorio oficial para instalar y actualizar el addon Flow FavManager.</description>
+        <description lang="en">Official repository for installing and updating the Flow FavManager addon.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+</addons>
