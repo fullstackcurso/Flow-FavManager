@@ -1,3 +1,8 @@
+> [!WARNING]
+> This repository is **deprecated** and no longer maintained.
+> The project has been transferred to **[https://github.com/loioloio/flowfav](https://github.com/loioloio/flowfav)**
+
+
 # Flow FavManager ⭐ - Addon for Kodi
 
 
