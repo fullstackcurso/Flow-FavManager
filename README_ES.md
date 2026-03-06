@@ -1,5 +1,12 @@
 # Flow FavManager ⭐ - Addon para Kodi
 
+> [!WARNING]
+> Este repositorio está **obsoleto** y ya no se mantiene.
+> El proyecto ha sido transferido a **[https://github.com/loioloio/flowfav](https://github.com/loioloio/flowfav)**
+
+
+# Flow FavManager ⭐ - Addon para Kodi
+
 
 ![Kodi](https://img.shields.io/badge/Kodi--blue?logo=kodi) ![Status](https://img.shields.io/badge/Estado-Activo-brightgreen) [![Roadmap](https://img.shields.io/badge/Roadmap-Ver_Metas-orange?logo=github)](./ROADMAP.md) [![Read in English](https://img.shields.io/badge/Read_in_English-🇬🇧-blue)](./README.md)
 
