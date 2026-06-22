@@ -154,7 +154,7 @@ If you find a bug or have a suggestion:
 
 ---
 
-*Founded by RubénSDFA1labernt* - [GitHub](https://github.com/loioloio/flowfav)
+*Founded by RubénSDFA1laberot* - [GitHub](https://github.com/loioloio/flowfav)
 
 ---
 
